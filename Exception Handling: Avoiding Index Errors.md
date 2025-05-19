@@ -1,5 +1,5 @@
 # Exception Handling in Python: Avoiding Index Errors
-
+# REG NO: 212224110045
 ## 🎯 Aim
 To write a Python program that handles an **IndexError** when trying to access an element beyond the available range of a list.
 
@@ -11,8 +11,19 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
-
+```
+list1=[5, 10, 20]
+try:
+print(list1[5])
+except:
+print("You're out of list range")
+```
 ## Output
 
+![Screenshot 2025-05-19 205500](https://github.com/user-attachments/assets/65c21262-2a6e-4415-9c0c-0f748f5d21ee)
+
+
 ## Result
+
+
+Thus, the program has been successfully executed.
